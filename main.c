@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 typedef struct {
-  int r;
-  int g;
-  int b;
+  unsigned char r;
+  unsigned char g;
+  unsigned char b;
 } color_t;
 
 void to_rgb(int hex, color_t *color) {
